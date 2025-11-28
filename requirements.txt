@@ -1,1 +1,10 @@
+streamlit
+pandas
+SpeechRecognition
+pydub
+numpy
+nltk
+textblob
+fpdf
+python-dotenv
 
