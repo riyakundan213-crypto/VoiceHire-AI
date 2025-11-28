@@ -24,7 +24,7 @@ QUESTION_BANK = {
 
     "machine_learning": [
         "What is regularization and why is it useful?",
-        "Explain gradient descent and its variants.",
+        "Explain gradient descent.",
         "Difference between bagging and boosting.",
         "How does a random forest work?",
         "Explain deep learning vs classical ML.",
@@ -33,105 +33,104 @@ QUESTION_BANK = {
 
     "nlp": [
         "What is tokenization?",
-        "Explain word embeddings (Word2Vec/GloVe).",
+        "Explain word embeddings.",
         "How do you handle out-of-vocabulary words?",
-        "Describe a text classification pipeline you built.",
+        "Describe a text classification pipeline.",
         "What is attention mechanism?"
     ],
 
     "data_engineer": [
-        "Explain an ETL pipeline you built or would build.",
-        "What is partitioning and why is it used?",
+        "Explain an ETL pipeline.",
+        "What is partitioning?",
         "How do you optimize SQL queries?",
         "Explain OLAP vs OLTP."
     ],
 
     "data_analyst": [
-        "How do you clean a dataset before analysis?",
-        "Explain a dashboard you created and metrics tracked.",
-        "Which charts would you choose for categorical vs numerical data?",
+        "How do you clean a dataset?",
+        "Explain a dashboard you created.",
+        "Which charts suit different data types?",
         "How do you validate data quality?"
     ],
 
     "software_development": [
         "Explain SOLID principles.",
-        "What is OOP and give examples.",
-        "How do you design RESTful APIs?",
-        "Explain how you debug and test code.",
-        "What design patterns have you used?"
+        "What is OOP?",
+        "How do you design REST APIs?",
+        "Explain debugging process.",
+        "What are design patterns?"
     ],
 
     "web_development": [
-        "Difference between frontend and backend responsibilities.",
-        "Explain how responsive design works.",
-        "What is CORS and how to handle it?",
-        "Describe the lifecycle of an HTTP request."
+        "Frontend vs backend roles.",
+        "How responsive design works.",
+        "What is CORS?",
+        "Lifecycle of an HTTP request."
     ],
 
     "devops": [
-        "What is CI/CD and why is it important?",
-        "Explain Docker and containerization benefits.",
-        "What is Kubernetes and when to use it?",
-        "How do you monitor application health in production?"
+        "What is CI/CD?",
+        "Explain Docker.",
+        "What is Kubernetes?",
+        "How do you monitor production apps?"
     ],
 
     "cloud": [
-        "Describe a service on AWS/GCP/Azure you used and why.",
-        "What is serverless computing?",
-        "Explain IAM and security best practices for cloud."
+        "Describe AWS/GCP/Azure services.",
+        "What is serverless?",
+        "Explain IAM security."
     ],
 
     "cybersecurity": [
-        "What is XSS and how to prevent it?",
-        "Explain SQL Injection and mitigation.",
-        "What is HTTPS and how does it work?",
-        "Describe authentication vs authorization."
+        "What is XSS?",
+        "Explain SQL injection.",
+        "What is HTTPS?",
+        "Authentication vs authorization."
     ],
 
     "finance": [
-        "Explain basic financial ratios (ROE, ROI).",
-        "What is cash flow and why is it important?",
-        "How do you perform a financial analysis of a project?"
+        "Explain ROE and ROI.",
+        "What is cash flow?",
+        "How to evaluate a financial project?"
     ],
 
     "business_analysis": [
-        "How do you gather requirements for a project?",
-        "Explain a use-case analysis you performed.",
-        "How do you prioritize requirements?"
+        "How do you gather requirements?",
+        "Explain use-case diagram.",
+        "How do you prioritize tasks?"
     ],
 
     "marketing": [
-        "Describe a digital marketing campaign you would run for a product.",
-        "What metrics matter most in marketing?",
-        "Explain SEO basics and how to measure success."
+        "Describe a digital campaign.",
+        "What metrics matter?",
+        "Explain SEO basics."
     ],
 
     "hr": [
-        "Describe a time you resolved conflict in a team.",
-        "How do you assess a candidate’s cultural fit?",
-        "What steps do you follow for onboarding a new hire?"
+        "Describe conflict resolution.",
+        "How to judge cultural fit?",
+        "Onboarding steps?"
     ],
 
     "ux_ui": [
-        "What are key principles of good UX design?",
-        "Describe a user research method you used.",
-        "How do you convert user feedback into product changes?"
+        "Principles of good UX.",
+        "Describe user research.",
+        "How do you turn feedback into design?"
     ],
 
     "qa_testing": [
-        "Explain test case design and give an example.",
-        "Difference between unit, integration, and system testing.",
-        "How do you prioritize test execution?"
+        "Explain test case design.",
+        "Unit vs integration vs system testing.",
+        "How to prioritize tests?"
     ],
 
     "general_technical": [
-        "Explain a technical project you led and the impact it had.",
-        "How do you keep technical debt under control?",
-        "Describe a problem where you used data to make a decision."
+        "Explain a technical project.",
+        "How do you handle technical debt?",
+        "Describe a decision you made using data."
     ]
 }
 
-# Mapping common role keywords to preferred fields
 ROLE_TO_FIELDS = {
     "data": ["data_science", "data_analyst", "machine_learning", "nlp", "data_engineer"],
     "analyst": ["data_analyst", "data_science"],
@@ -151,4 +150,3 @@ ROLE_TO_FIELDS = {
 }
 
 ALL_FIELDS = list(QUESTION_BANK.keys())
-
